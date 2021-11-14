@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.title1{
+	font-family:'Merriweather';
+	font-weight: 700;
+	font-size: 120px;
+	color: #fff;
+	letter-spacing: 5px;
+	position: absolute;
+	top:75%;
+	left: 21%; 
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+.title2{
+	font-family:'Merriweather';
+	font-weight: 700;
+	font-size: 120px;
+	color: #000;
+	letter-spacing: 5px;
+	position: absolute;
+	top:75%;
+	left: 48%; 
+	animation-duration: 3s;
+	animation-name: slidein;
+
+} 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+.title{
+	font-family:'Playfair Display';
+	font-weight: 700;
+	font-size: 64px;
+	color: #000;
+	letter-spacing: 5px;
+	margin-top: 4%;
+	margin-left: 8%;
+}
+.line{
+	border-left: 1px solid black;
+    height: 130px;
+    margin-top: 4%;
+    margin-left: 22%;
+}
+.part2{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-top: 2%;
+	margin-left: 22%;
+
+}
+.part2 img{
+	margin-top: 4%;
+}
+.part2 img:hover {
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+.part3{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-top: 4%;
+	margin-left: 22%;
+}
+.photo{
+	display: flex;
+	flex-direction: row;
+	margin-top: 4%;
+}
+.photo img:hover {
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+.ph23{
+	display: flex;
+	flex-direction: column;
+	margin: 0px 14px;
+	
+}
+.ph23 img{
+	padding: 0px 0px 14px 0px;
+}
+.part4{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-top: 2%;
+	margin-left: 22%;
+}
+.pics img{
+	margin-top: 4%;
+	padding: 0px 64px 0px 0px;
+}
+.pics img:hover {
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+.info{
+	margin-top: 6%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.line1{
+	border: none;
+	border-top: 1px solid #333;
+	width: 47%;
+}
+
+.info a{
+	
+	margin: -25px  auto;
+}
+.line2{
+	border: none;
+	border-top: 1px solid #333;
+	width: 47%;
+	
+}
+p{
+	font-family:'Playfair Display';
+	font-weight: 400;
+	font-size: 26px;
+	margin: 4px;
+}
